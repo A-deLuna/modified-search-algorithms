@@ -7,22 +7,35 @@ namespace modifiedSearch
     class InsertionSort
     {
         private static Results results; 
-        public static Results sort(int[] element, int dimension)
+        public static Results sort(int[] element,int first, int dimension)
         {
             results = new Results();
-            insertionsort(element, dimension);
+            insertionsort(element,first ,dimension);
             return results;
          
+        }
+        // ORDENA POR INSERCION
+        private static void insertionsort(int[] element,int first, int n)
+        {
+            int xindex, xLoc;
+            int current;
+
+            for (xindex = first+1; xindex <= n; xindex++)
+            {
+                current = element[xindex];
+                xLoc = shiftVac(element, xindex, current, first);
+                element[xLoc] = current;
+            }
         }
 
 
         // HACE EL DESPLAZAMIENTO 
-        private static int shiftVac(int[] element, int xindex, int x)
+        private static int shiftVac(int[] element, int xindex, int x, int first)
         {
             int vacant = xindex;
         
-            int xLoc = 0; // asume que falla
-            while (vacant > 0)
+            int xLoc = first; // asume que falla
+            while (vacant > first)
             {
                 results.comparisons++;
                 if (element[vacant - 1] <= x)
@@ -41,19 +54,6 @@ namespace modifiedSearch
         }
 
 
-        // ORDENA POR INSERCION
-        private static void insertionsort(int[] element, int n)
-        {
-            int xindex, xLoc;
-            int current;
-
-            for (xindex = 1; xindex < n; xindex++)
-            {
-                current = element[xindex];
-                xLoc = shiftVac(element, xindex, current);
-                element[xLoc] = current;
-            }
-        }
 
 
     }
