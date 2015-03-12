@@ -3,23 +3,27 @@ using System.Collections.Generic;
 using System.Text;
 
 
-namespace Ordenamiento
+namespace modifiedSearch
 {
     class QuickSort
     {
-        public void sort(int[] element, int last)
+        private static Results results;
+        public static Results sort(int[] element, int last)
         {
+            results = new Results();
             quickSort(element, 0, last - 1);
+            return results;
         }
 
         private static void quickSort(int[] element, int first, int last)
         {
             int pivot;
-
+            results.comparisons++;
             if (first < last)
             {
                 pivot = element[first];
                 int splitPoint = partition(element, pivot, first, last);
+                results.swaps++;
                 element[splitPoint] = pivot;
             
                 quickSort(element, first, splitPoint - 1);
@@ -55,8 +59,10 @@ namespace Ordenamiento
 
             while (curr > lowVac)
             {
+                results.comparisons++;
                 if (element[curr] < pivot)
                 {
+                    results.swaps++;
                     element[lowVac] = element[curr];
                     highVac = curr;
                     break;
@@ -76,8 +82,10 @@ namespace Ordenamiento
             curr = low;
             while (curr < highVac)
             {
+                results.comparisons++;
                 if (element[curr] >= pivot)
                 {
+                    results.swaps++;
                     element[highVac] = element[curr];
                     moves++;
                     lowVac = curr;
