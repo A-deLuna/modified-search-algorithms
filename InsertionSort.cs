@@ -1,17 +1,17 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using Estadisticos;
 
-namespace Ordenamiento
+namespace modifiedSearch
 {
     class InsertionSort
     {
-       
-        public void sort(int[] element, int dimension)
+        private static Results results; 
+        public static Results sort(int[] element, int dimension)
         {
-       
+            results = new Results();
             insertionsort(element, dimension);
+            return results;
          
         }
 
@@ -24,6 +24,7 @@ namespace Ordenamiento
             int xLoc = 0; // asume que falla
             while (vacant > 0)
             {
+                results.comparisons++;
                 if (element[vacant - 1] <= x)
                 {
                     xLoc = vacant; // Exito
@@ -31,8 +32,8 @@ namespace Ordenamiento
                 }
                 else
                 {
+                    results.swaps++;
                     element[vacant] = element[vacant - 1]; // Recorre los datos
-               
                 }
                vacant--;
             }
