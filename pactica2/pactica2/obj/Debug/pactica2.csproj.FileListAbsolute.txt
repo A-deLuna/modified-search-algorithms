@@ -1,0 +1,9 @@
+c:\users\temp.cetyslabs.004\documents\visual studio 2013\Projects\pactica2\pactica2\bin\Debug\pactica2.exe.config
+c:\users\temp.cetyslabs.004\documents\visual studio 2013\Projects\pactica2\pactica2\bin\Debug\pactica2.exe
+c:\users\temp.cetyslabs.004\documents\visual studio 2013\Projects\pactica2\pactica2\bin\Debug\pactica2.pdb
+c:\users\temp.cetyslabs.004\documents\visual studio 2013\Projects\pactica2\pactica2\obj\Debug\pactica2.csprojResolveAssemblyReference.cache
+c:\users\temp.cetyslabs.004\documents\visual studio 2013\Projects\pactica2\pactica2\obj\Debug\pactica2.Form1.resources
+c:\users\temp.cetyslabs.004\documents\visual studio 2013\Projects\pactica2\pactica2\obj\Debug\pactica2.Properties.Resources.resources
+c:\users\temp.cetyslabs.004\documents\visual studio 2013\Projects\pactica2\pactica2\obj\Debug\pactica2.csproj.GenerateResource.Cache
+c:\users\temp.cetyslabs.004\documents\visual studio 2013\Projects\pactica2\pactica2\obj\Debug\pactica2.exe
+c:\users\temp.cetyslabs.004\documents\visual studio 2013\Projects\pactica2\pactica2\obj\Debug\pactica2.pdb
