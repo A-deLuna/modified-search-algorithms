@@ -7,10 +7,10 @@ namespace modifiedSearch
     class BinaryInsertionSort
     {
         private static Results results; 
-        public static Results sort(int[] element, int dimension)
+        public static Results sort(int[] element)
         {
             results = new Results();
-            insertionsort(element,dimension-1);
+            insertionsort(element,element.Length-1);
             return results;
          
         }

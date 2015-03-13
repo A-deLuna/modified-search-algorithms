@@ -9,10 +9,10 @@ namespace modifiedSearch
 	{
 		private static Results results;
 
-		public static Results sort(int[] element, int n, int ht)
+		public static Results sort(int[] element)
 		{
 			results = new Results();
-			shellsortQ(element,n,ht);
+			shellsortQ(element,element.Length,element.Length/2);
 			return results;
 		}
 
@@ -59,7 +59,7 @@ namespace modifiedSearch
             vacant = first;
             for(unknown = first + 1; unknown <= last; unknown++)
             {
-            	results.comparisons++
+            	results.comparisons++;
                 if(element[unknown] < pivot)
                 {
                 	results.swaps++;

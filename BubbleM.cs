@@ -8,10 +8,10 @@ namespace modifiedSearch
     {
         private static Results results;
 
-        public static Results sort(int[] element, int n)
+        public static Results sort(int[] element)
         {
             results = new Results();
-            bubbleM(element,n);
+            bubbleM(element,element.Length);
             return results;
         }
 
