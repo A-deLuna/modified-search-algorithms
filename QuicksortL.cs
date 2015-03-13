@@ -18,12 +18,12 @@ namespace modifiedSearch
         private static void quickSortL(int[] element, int first, int last)
         {
             int pivot;
-            //results.comparisons++;
+            results.comparisons++;
             if (first < last)
             {
                 pivot = element[first];
                 int splitPoint = partitionL(element, pivot, first, last);
-                //results.swaps++;
+                results.swaps++;
                 element[splitPoint] = pivot;
             
                 quickSortL(element, first, splitPoint - 1);
