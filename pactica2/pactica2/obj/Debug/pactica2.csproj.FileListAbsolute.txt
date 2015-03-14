@@ -7,3 +7,12 @@ c:\users\temp.cetyslabs.004\documents\visual studio 2013\Projects\pactica2\pacti
 c:\users\temp.cetyslabs.004\documents\visual studio 2013\Projects\pactica2\pactica2\obj\Debug\pactica2.csproj.GenerateResource.Cache
 c:\users\temp.cetyslabs.004\documents\visual studio 2013\Projects\pactica2\pactica2\obj\Debug\pactica2.exe
 c:\users\temp.cetyslabs.004\documents\visual studio 2013\Projects\pactica2\pactica2\obj\Debug\pactica2.pdb
+C:\Users\TEMP.CETYSLABS.011\Desktop\modified-search-algorithms-master\pactica2\pactica2\bin\Debug\pactica2.exe.config
+C:\Users\TEMP.CETYSLABS.011\Desktop\modified-search-algorithms-master\pactica2\pactica2\obj\Debug\pactica2.exe
+C:\Users\TEMP.CETYSLABS.011\Desktop\modified-search-algorithms-master\pactica2\pactica2\obj\Debug\pactica2.pdb
+C:\Users\TEMP.CETYSLABS.011\Desktop\modified-search-algorithms-master\pactica2\pactica2\bin\Debug\pactica2.exe
+C:\Users\TEMP.CETYSLABS.011\Desktop\modified-search-algorithms-master\pactica2\pactica2\bin\Debug\pactica2.pdb
+C:\Users\TEMP.CETYSLABS.011\Desktop\modified-search-algorithms-master\pactica2\pactica2\obj\Debug\pactica2.csprojResolveAssemblyReference.cache
+C:\Users\TEMP.CETYSLABS.011\Desktop\modified-search-algorithms-master\pactica2\pactica2\obj\Debug\pactica2.Form1.resources
+C:\Users\TEMP.CETYSLABS.011\Desktop\modified-search-algorithms-master\pactica2\pactica2\obj\Debug\pactica2.Properties.Resources.resources
+C:\Users\TEMP.CETYSLABS.011\Desktop\modified-search-algorithms-master\pactica2\pactica2\obj\Debug\pactica2.csproj.GenerateResource.Cache
